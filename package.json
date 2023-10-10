@@ -13,10 +13,10 @@
   "keywords": [
     "fusion"
   ],
-  "author": "",
+  "author": "chelinomx",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@chelinomx/fusion": "^1.0.10"
+    "@chelinomx/fusion": "^1.0.10",
     "express": "^4.18.2"
   },
   "devDependencies": {
