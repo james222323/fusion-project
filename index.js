@@ -1,6 +1,6 @@
 import express from "express";
 import http from "node:http";
-import createBareServer from " "@letticdo/bare-server-node-tomphttp";
+import createBareServer from "@letticdo/bare-server-node-tomphttp";
 import path from "node:path";
 import * as dotenv from "dotenv";
 dotenv.config();
