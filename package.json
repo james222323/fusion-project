@@ -17,7 +17,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@nobodydreams/ultraviolet": "^2.0.0",
-    "bare-server-node": "^2.0.0",
+    "@letticdo/bare-server-node-tomphttp",
     "express": "^4.18.2"
   },
   "devDependencies": {
