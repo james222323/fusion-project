@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
      {
       name: "Chat",
       link: "https://echochat.idek29879890.repl.co/",
-      image: "/images/icons/apps/amazon.png",
+      image: "favicon.png",
       categories: ["all", "media"],
       error: false
     },
