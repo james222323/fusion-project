@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
+
+    {
+      name: "Chat",
+      link: "https://echochat.idek29879890.repl.co/",
+      image: "/images/icons/apps/amazon.png",
+      categories: ["all", "media"],
+      error: false
+    },
     {
       name: "Amazon",
       link: "https://amazon.com/",
