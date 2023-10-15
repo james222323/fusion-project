@@ -41,7 +41,7 @@
   <script rel="preload" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <div class="main">
     <h2 class="title">Fusion</h2>
-    <h2 class="subtitle" style="margin-bottom: 1px;">Your Subtitle Here</h2>
+    <h2 class="subtitle" style="margin-bottom: 1px;"> </h2>
     <form method="POST">
       <input class="searchbar" tag="searchbar" id="searchbar" placeholder="Search the web freely" />
     </form>
@@ -54,11 +54,7 @@
 </div>
 <!-- JavaScript to randomize the subtitle -->
 <script>
-  var subtitles = ["RIP GXME SPXCE", "RIP WILLIAM", "Landon is...", "Welcome.", "Hello!", "Does this thing even work?", "What's Google Sites?", "Made with HTML!", "You get a cookie!", "Uses some javascript", "10/10", "nahhhh bro fell asleep again 💀", "Written by?", "1 + 1 = 3", "Welcome to v3.0!", "👍", "whoever made this website is cool", "New update???", "This is a test message!", "Remember v1.0?", "i forgor", "i rember", "We're the website your friends are talking about.", "We're the website you'll never forget.", "Error 404: text not found.", "ima go to sleep", "insert text here", "work n progress", "I just saved myself 150 bucks.", "You got games on your phone?", "Math is kinda boring", "Site to cure boredness", "reload for another message", "Get ready for an unforgettable experience on our website. It's going to be a blast!", "Toss the Turtle is pretty fun", "Don't blink!", "Made you look!", "games games games", "no", "more", "Do your work!", "Made with love",
-
-    // Add more subtitles as needed
-  ];
-
+  var subtitles = [
   var randomSubtitle = subtitles[Math.floor(Math.random() * subtitles.length)];
 
   var subtitleElement = document.querySelector('.subtitle');
