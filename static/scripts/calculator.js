@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: "! Request A Game [UPDATED]",
-      link: "https://forms.gle/94fJ9yAXQCgaXTrz6",
-      image: "/images/icons/request.webp",
-      categories: ['all'],
-      error: false
-    },
-      {
       name: "Dynast.io",
       link: "https://dynast.io",
       image: "/images/icons/dynast-io.png",
@@ -205,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: "Burrito Bison",
-      link: "https://f.silvergames.com/awayfl/index.html?swf=burrito-bison.swf",
+      link: "https://tybsi.com/games/burrito-bison-launcha-libre/index.html",
       image: "/images/icons/burritobison.webp",
       categories: ['all'],
       error: false
@@ -299,13 +292,6 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://www.crazygames.com/game/bullet-force-multiplayer",
       image: "/images/icons/BFM.png",
       categories: ['all,', '2P'],
-      error: false
-    },
-    {
-      name: "Crazy Games",
-      link: "https://www.crazygames.com/",
-      image: "/images/icons/crazy.png",
-      categories: ['all,', 'emu,', '2P,', 'sports,', 'flash' ],
       error: false
     },
     {
@@ -557,13 +543,6 @@ document.addEventListener('DOMContentLoaded', () => {
     name: "Basketball Legends",
     link: "https://www.basketballlegends.fun/gamedata/basketball-legends-2020",
     image: "/images/icons/basketball-legends.webp",
-    categories: ['all'],
-    error: false
-  },
-  {
-    name: "Biggie Cheese Fight",
-    link: "https://scratch.mit.edu/projects/163771748/fullscreen",
-    image: "/images/icons/biggiecheese.webp",
     categories: ['all'],
     error: false
   },
