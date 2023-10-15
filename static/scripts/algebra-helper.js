@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "Chat",
       link: "https://echochat.idek29879890.repl.co/",
-      image: "/images/icons/apps/amazon.png",
-      categories: ["all", "media"],
+      image: "/images/icons/apps/chat.jpg",
+      categories: ["all", "media", "message"],
       error: false
     },
     {
@@ -23,17 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "freemovieswatch.tv",
+      name: "freemovies",
       link: "https://freemovieswatch.tv",
       image: "/images/icons/freemovieswatch.png",
       categories: ["all", "media", "stream"],
-      error: false
-    },
-    {
-      name: "Scratch",
-      link: "https://scratch.mit.edu",
-      image: "/images/icons/scratch.jpg",
-      categories: ["all", "social", "game", "media", ""],
       error: false
     },
     {
@@ -44,24 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "Cool Math Games",
-      link: "https://coolmathgames.com",
-      image: "/images/icons/apps/coolmath.png",
-      categories: ["all", "game"],
-      error: false
-    },
-    {
       name: "Discord",
       link: "https://discord.com",
       image: "/images/icons/apps/discord.jpg",
       categories: ["all", "social"],
-      error: false
-    },
-    {
-      name: "DuckDuckGo",
-      link: "https://start.duckduckgo.com/",
-      image: "/images/icons/apps/duckduckgo.png",
-      categories: ["all"],
       error: false
     },
     {
@@ -75,13 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "Fifa Rosters",
       link: "https://fifarosters.com/",
       image: "/images/icons/fifa.png",
-      categories: ["all", "media"],
-      error: false
-    },
-    {
-      name: "Firefox Web Browser",
-      link: "https://replit.com/@cooleddie001/Firefox-Legacy?v=1",
-      image: "/images/icons/apps/firefox.png",
       categories: ["all", "media"],
       error: false
     },
@@ -149,13 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "Poki",
-      link: "https://poki.com",
-      image: "/images/icons/apps/poki.png",
-      categories: ["all", "game"],
-      error: false
-    },
-    {
       name: "Soundcloud",
       link: "https://soundcloud.com",
       image: "/images/icons/apps/soundcloud.jpg",
@@ -185,13 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "Tumblr",
-      link: "https://tumblr.com/",
-      image: "/images/icons/apps/tumblr.png",
-      categories: ["all", "social"],
-      error: false
-    },
-    {
       name: "Twitch",
       link: "https://twitch.tv",
       image: "/images/icons/apps/twitch-tv.png",
@@ -210,13 +168,6 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://vscode.dev",
       image: "/images/icons/apps/vscode.png",
       categories: ["all", "tool"],
-      error: false
-    },
-    {
-      name: "Y8 Games",
-      link: "https://y8.com/",
-      image: "/images/icons/apps/y8.png",
-      categories: ["all", "game"],
       error: false
     },
     {
@@ -252,6 +203,14 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://discord.com/login",
       image: "/images/icons/discord.jpg",
       categories: ["all", "social"],
+      blank: "true",
+      error: false
+    },
+    {
+      name: "Netlifx",
+      link: "https://netlifx.com/",
+      image: "/images/icons/apps/netflix.png",
+      categories: ["all", "stream"],
       blank: "true",
       error: false
     },
