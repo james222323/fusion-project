@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: "Netlifx",
-      link: "https://netlifx.com/",
+      link: "https://netflix.com/",
       image: "/images/icons/apps/netflix.png",
       categories: ["all", "stream"],
       blank: "true",
