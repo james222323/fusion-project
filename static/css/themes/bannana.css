@@ -1,43 +1,66 @@
-.title {
-    color:black;
-}
-body {
-    background-image: linear-gradient(to right, rgb(247, 255, 171) , rgb(171, 255, 185));
-}
-h2 {
-    color:black;
-}
-.fixed-nav-bar-right .navbar-link {
-    color:black
-}
-#INImg {
+/* Halloween Theme */
+:root {
+    --primary-bg-color: #000; /* Black */
+    --secondary-bg-color: #ff6600; /* Pumpkin Orange */
+    --text-color: #ffcc00; /* Gold */
+    --halloween-color: #da8c44; /* Halloween Red */
+  }
+  
+  .title {
+    color: var(--text-color);
+  }
+  
+  body {
+    background-image: url('/halloween.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* This property scales the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  h2 {
+    color: var(--text-color);
+  }
+  
+  .fixed-nav-bar-right .navbar-link {
+    color: var(--text-color);
+  }
+  
+  #INImg {
     content: url("/main_inverted.png");
-}
-.searchbar {
+  }
+  
+  .searchbar {
     background-color: transparent;
-    border-color: black;
+    border-color: var(--halloween-color);
     border-radius: 2vw;
-    border: solid .5vw;
-    color: black
-}
-p {
-    color:black;
-}
-.column {
-    background-color: #00ff2280;
-}
-input {
-    background-color: #00ff2280;
-}
-select {
-    background-color: #00ff2280;
-}
-.settings-card {
-    background-color: #00610d;
-}
-.key-button {
-    background-color: #00ff2280;
-}
-.key-form {
-    background-color: #00ff2280;
-}
+    border: solid 0.5vw;
+    color: var(--halloween-color);
+  }
+  
+  p {
+    color: var(--text-color);
+  }
+  
+  .column {
+    background-color: rgba(255, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  input {
+    background-color: rgba(255, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  select {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  .settings-card {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  .key-button {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
+  .key-form {
+    background-color: rgba(139, 0, 0, 0.5); /* Halloween Red with transparency */
+  }
+  
