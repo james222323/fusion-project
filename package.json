@@ -1,7 +1,7 @@
+
 {
-  "name": "fusion",
-  "version": "1.0.0",
-  "description": "yes",
+  "name": "mathematics",
+  "version": "5.0.1",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
@@ -10,14 +10,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "fusion"
-  ],
-  "author": "chelinomx",
+  "author": "",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "styled-ultraviolet": "^2.0.0",
-    "@letticdo/bare-server-node-tomphttp": "^1.0.2",
+    "educational-u-x-v": "^1.0.10",
+    "educational-br-sr": "^1.2.6",
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {
